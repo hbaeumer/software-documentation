@@ -1,0 +1,26 @@
+{
+  "name": "hbaeumer/software-documentation",
+  "description": "software-documentation",
+  "type": "project",
+  "license": "MIT",
+  "homepage": "https://www.hbaeumer.de",
+  "support": {
+    "source": "https://github.com/hbaeumer/software-documentation",
+    "issues": "https://github.com/hbaeumer/software-documentation/issues",
+    "wiki": "https://github.com/hbaeumer/software-documentation/wiki"
+  },
+  "authors": [
+    {
+      "name": "Heiner Baeumer",
+      "email": "mail@hbaeumer.de"
+    }
+  ],
+  "autoload": {
+
+  },
+  "autoload-dev": {
+
+  },
+  "require": {},
+  "require-dev": {}
+}
