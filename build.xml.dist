@@ -32,7 +32,7 @@
         <mkdir dir="${dir.docs}/phpmetrics" />
     </target>
 
-    <target name="sca" depends="prepare, lint, phploc, pdepend, phpmd, phpcs, phpcpd, phpmetrics">
+    <target name="sca" depends="prepare, lint, phploc, pdepend, phpmd, phpcs, phpcpd, phpunit, phpmetrics, phpstan-cs">
 
     </target>
 
@@ -47,11 +47,11 @@
     </target>
 
     <target name="phploc" depends="prepare">
-        <exec passthru="true" command="phploc --count-tests --log-xml ${dir.reports}/phploc.xml ${dir.src} ${dir.test}"/>
+        <exec passthru="true" command="phploc --count-tests --log-xml ${dir.reports}/phploc.xml ${dir.src}"/>
     </target>
 
     <target name="pdepend" depends="prepare">
-        <exec passthru="true" command="pdepend --jdepend-xml=${dir.reports}/jdepend.xml ${dir.src}"/>
+        <exec passthru="true" command="pdepend --jdepend-xml=${dir.reports}/jdepend.xml --jdepend-chart=${dir.reports}/jdepend.svg --overview-pyramid=${dir.reports}/pyramid.svg --summary-xml=${dir.reports}/summary.xml ${dir.src}"/>
     </target>
 
     <target name="phpmd" depends="prepare">
@@ -59,10 +59,10 @@
     </target>
 
     <target name="phpcs" depends="prepare">
-        <exec passthru="true" command="phpcs --standard=./phpcs.xml.dist --extensions=php --report-checkstyle=${dir.reports}/checkstyle.xml ${dir.src} ${dir.test}"/>
+        <exec passthru="true" command="phpcs --standard=./phpcs.xml.dist --extensions=php --report-checkstyle=${dir.reports}/checkstyle.xml ${dir.src}"/>
     </target>
     <target name="phpcs-full" depends="prepare">
-        <exec passthru="true" command="phpcs --standard=./phpcs.xml.dist --extensions=php --report=full ${dir.src} ${dir.test}"/>
+        <exec passthru="true" command="phpcs --standard=./phpcs.xml.dist --extensions=php --report=full ${dir.src}"/>
     </target>
 
     <target name="phpcpd" depends="prepare">
@@ -70,7 +70,7 @@
     </target>
 
     <target name="phpmetrics" depends="prepare, phpunit" >
-        <exec passthru="true" command="phpmetrics --extensions=php --junit=${dir.reports}/junit.xml --report-violations=${dir.reports}/phpmetrics.xml --report-html=${dir.docs}/phpmetrics ." />
+        <exec passthru="true" command="phpmetrics --extensions=php --report-violations=${dir.reports}/phpmetrics.xml --report-html=${dir.docs}/phpmetrics --report-json=${dir.reports}/phpmetrics.json ." />
     </target>
     <target name="phpmetrics1" depends="prepare, phpunit" >
         <exec passthru="true" command="phpmetrics1 --report-html=${dir.docs}/phpmetrics1.html ${dir.src}" />
@@ -80,5 +80,10 @@
         <echo message="vendor/bin/phpunit"/>
         <exec passthru="true" command="vendor/bin/phpunit --coverage-clover=${dir.reports}/coverage.xml --coverage-html=${dir.docs}/coverage_html --log-junit=${dir.reports}/junit.xml "/>
     </target>
+
+    <target name="phpstan-cs" depends="prepare">
+            <exec passthru="true" command="phpstan analyse -l 1 --no-progress --no-ansi --errorFormat=checkstyle ${dir.src} > ${dir.reports}/phpstancs.xml"/>
+        </target>
+
 
 </project>

@@ -89,3 +89,17 @@ this is the directory structure for the application.
 ├── vendor          # The third-party dependencies.
 └── web             # The web root directory.
 ```
+
+
+"php" : ">= 7.2",
+    "ext-libxml": "*",
+    "php-di/php-di": "^5.0",
+    "symfony/console": "^4.0",
+    "twig/twig": "^2.4",
+    "symfony/filesystem": "^4.1",
+    "psr/container": "^1.0",
+    "doctrine/annotations": "^1.6",
+    "erusev/parsedown": "^1.7",
+    "symfony/event-dispatcher": "^4.1",
+    "phpdocumentor/reflection": "~4.0",
+    "symfony/finder": "^4.2@dev"

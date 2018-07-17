@@ -1,0 +1,13 @@
+{
+  "source": "./src",
+  "target": "./docs/",
+  "reports": {
+    "checkstyle" : [
+      "./build/reports/checkstyle.xml",
+      "./build/reports/phpstancs.xml"
+    ],
+    "pmd" : [
+      "./build/reports/phpmd.xml"
+    ]
+  }
+}
