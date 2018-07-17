@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.2.3">
+<file name="file1.php">
+ <error line="9" column="1" severity="error" message="m1" source="s1"/>
+</file>
+</checkstyle>
+

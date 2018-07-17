@@ -1,0 +1,13 @@
+{% extends "base.html.twig" %}
+
+{% block pageheader %}
+    <h1>
+        {{ class.FullyQualifiedStructuralElementName }}
+        <small>it all starts here</small>
+    </h1>
+{% endblock %}
+{% block maincontent %}
+    {# @var class \phpDocumentor\Descriptor\Interfaces\ClassInterface #}
+    {{ class.name }}
+
+{% endblock %}
