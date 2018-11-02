@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2018-11-02T11:02:11" pdepend="2.5.0" ahh="0.58333333333333" andc="0.095238095238095" calls="206" ccn="119" ccn2="130" cloc="370" clsa="1" clsc="17" eloc="812" fanout="77" leafs="14" lloc="543" loc="1526" maxDIT="3" ncloc="1156" noc="18" nof="0" noi="0" nom="47" nop="8" roots="3">
+  <files>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Configuration.php" loc="32" cloc="10" eloc="14" lloc="6" ncloc="22"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Application.php" loc="43" cloc="15" eloc="15" lloc="7" ncloc="28"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Bootstrap.php" loc="62" cloc="16" eloc="35" lloc="25" ncloc="46"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/AbstractCommand.php" loc="35" cloc="14" eloc="12" lloc="6" ncloc="21"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/RunCommand.php" loc="168" cloc="30" eloc="102" lloc="79" ncloc="138"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/RunOldCommand.php" loc="167" cloc="42" eloc="85" lloc="69" ncloc="125"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Creator/ClassPageCreator.php" loc="76" cloc="21" eloc="41" lloc="23" ncloc="55"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Creator/DashboardCreator.php" loc="95" cloc="31" eloc="46" lloc="24" ncloc="64"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Parser/ClassParser.php" loc="218" cloc="50" eloc="118" lloc="87" ncloc="168"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Parser/ProjectParser.php" loc="15" cloc="6" eloc="5" lloc="1" ncloc="9"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Reader/CheckStyleReader.php" loc="44" cloc="10" eloc="21" lloc="12" ncloc="34"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Reader/PMDReader.php" loc="40" cloc="10" eloc="24" lloc="13" ncloc="30"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Service/FilenameService.php" loc="18" cloc="0" eloc="12" lloc="6" ncloc="18"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/BootstrapTableExtension.php" loc="71" cloc="14" eloc="40" lloc="23" ncloc="57"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/ClassSynopsis.php" loc="110" cloc="5" eloc="75" lloc="52" ncloc="105"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/MethodExtension.php" loc="242" cloc="81" eloc="113" lloc="81" ncloc="161"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/PMDTableExtension.php" loc="55" cloc="6" eloc="37" lloc="22" ncloc="49"/>
+    <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/SidebarMultilevel.php" loc="35" cloc="9" eloc="17" lloc="7" ncloc="26"/>
+  </files>
+  <package name="Hbaeumer\SoftDoc" noc="1" noi="0" nom="2" nof="0" cr="0.15" rcr="0.15">
+    <class name="Configuration" fqname="Hbaeumer\SoftDoc\Configuration" start="12" end="32" ca="3" cbo="0" ce="0" dit="0" noam="0" nocc="0" noom="0" nom="2" loc="21" cloc="4" eloc="6" lloc="2" ncloc="17" cr="0.15" rcr="0.15" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Configuration.php"/>
+      <method name="__construct" start="20" end="23" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="11" hnd="12" hv="39.434587507933" hd="4.2" hl="0.23809523809524" he="165.62526753332" ht="9.201403751851" hb="0.010053018315896" hi="9.3891875018887" mi="78.283237328948"/>
+      <method name="getCheckstyleReports" start="25" end="29" ccn="1" ccn2="1" loc="5" cloc="0" eloc="3" lloc="1" ncloc="5" npath="1" hnt="8" hnd="9" hv="25.359400011539" hd="5" hl="0.2" he="126.79700005769" ht="7.0442777809829" hb="0.0084130098545288" hi="5.0718800023077" mi="79.625791624151"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Console" noc="2" noi="0" nom="4" nof="0" cr="0.15" rcr="0.2775">
+    <class name="Application" fqname="Hbaeumer\SoftDoc\Console\Application" start="14" end="43" ca="1" cbo="2" ce="2" dit="2" noam="2" nocc="0" noom="0" nom="2" loc="30" cloc="9" eloc="6" lloc="2" ncloc="21" cr="0.15" rcr="0.2775" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Application.php"/>
+      <method name="getConfiguration" start="24" end="27" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+      <method name="setConfiguration" start="32" end="35" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+    <class name="Bootstrap" fqname="Hbaeumer\SoftDoc\Console\Bootstrap" start="22" end="62" ca="0" cbo="9" ce="9" dit="0" noam="0" nocc="0" noom="0" nom="2" loc="41" cloc="10" eloc="18" lloc="12" ncloc="31" cr="0.15" rcr="0.15" impl="0" cis="2" csz="3" npm="2" vars="1" varsi="1" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Bootstrap.php"/>
+      <method name="createInstance" start="34" end="37" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="24.5" hl="0.040816326530612" he="481.46136913288" ht="26.747853840716" hb="0.020476373511184" hi="0.80210140630217" mi="80.401219851729"/>
+      <method name="initialize" start="42" end="60" ccn="1" ccn2="1" loc="19" cloc="0" eloc="15" lloc="11" ncloc="19" npath="1" hnt="32" hnd="72" hv="197.43760004615" hd="6.6724137931034" hl="0.14987080103359" he="1317.3853658252" ht="73.188075879178" hb="0.040057819177207" hi="29.590131273067" mi="58.13765456062"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Console\Command" noc="3" noi="0" nom="7" nof="0" cr="0.15" rcr="0.2775">
+    <class name="AbstractCommand" fqname="Hbaeumer\SoftDoc\Console\Command\AbstractCommand" start="22" end="35" ca="0" cbo="1" ce="1" dit="2" noam="1" nocc="2" noom="0" nom="1" loc="14" cloc="3" eloc="3" lloc="1" ncloc="11" cr="0.405" rcr="0.2775" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/AbstractCommand.php"/>
+      <method name="getConfiguration" start="28" end="31" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="7" hv="16.844129532346" hd="15" hl="0.066666666666667" he="252.66194298518" ht="14.036774610288" hb="0.013322077822924" hi="1.122941968823" mi="80.869982152958"/>
+    </class>
+    <class name="RunCommand" fqname="Hbaeumer\SoftDoc\Console\Command\RunCommand" start="30" end="168" ca="1" cbo="12" ce="12" dit="3" noam="4" nocc="0" noom="0" nom="4" loc="139" cloc="30" eloc="67" lloc="46" ncloc="109" cr="0.15" rcr="0.2679375" impl="0" cis="0" csz="9" npm="0" vars="5" varsi="5" varsnp="0" wmc="24" wmci="25" wmcnp="0">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/RunCommand.php"/>
+      <method name="configure" start="64" end="73" ccn="1" ccn2="1" loc="10" cloc="0" eloc="9" lloc="2" ncloc="10" npath="1" hnt="22" hnd="39" hv="116.27884881497" hd="4.5294117647059" hl="0.22077922077922" he="526.67478580898" ht="29.259710322721" hb="0.021739043428947" hi="25.671953634474" mi="64.5870220669"/>
+      <method name="execute" start="75" end="124" ccn="3" ccn2="3" loc="50" cloc="9" eloc="27" lloc="23" ncloc="41" npath="3" hnt="49" hnd="140" hv="349.3348678303" hd="6.2903225806452" hl="0.15897435897436" he="2197.4290073196" ht="122.07938929554" hb="0.056340666553143" hi="55.535286680715" mi="50.564960077617"/>
+      <method name="file_get_php_classes" start="126" end="130" ccn="1" ccn2="1" loc="5" cloc="0" eloc="5" lloc="3" ncloc="5" npath="1" hnt="11" hnd="17" hv="44.962091253754" hd="4.2857142857143" hl="0.23333333333333" he="192.6946768018" ht="10.705259822322" hb="0.01112052327893" hi="10.491154625876" mi="73.044937593078"/>
+      <method name="get_php_classes" start="132" end="167" ccn="8" ccn2="19" loc="36" cloc="1" eloc="26" lloc="18" ncloc="35" npath="91" hnt="44" hnd="228" hv="344.64716062325" hd="13.20297029703" hl="0.075740532433446" he="4550.3662246644" ht="252.79812359247" hb="0.091532708324043" hi="26.10375944728" mi="48.811535669923"/>
+    </class>
+    <class name="RunOldCommand" fqname="Hbaeumer\SoftDoc\Console\Command\RunOldCommand" start="38" end="167" ca="1" cbo="18" ce="18" dit="3" noam="2" nocc="0" noom="0" nom="2" loc="130" cloc="36" eloc="48" lloc="36" ncloc="94" cr="0.15" rcr="0.2679375" impl="0" cis="0" csz="7" npm="0" vars="5" varsi="5" varsnp="0" wmc="6" wmci="7" wmcnp="0">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Console/Command/RunOldCommand.php"/>
+      <method name="configure" start="73" end="82" ccn="1" ccn2="1" loc="10" cloc="0" eloc="9" lloc="2" ncloc="10" npath="1" hnt="22" hnd="39" hv="116.27884881497" hd="4.5294117647059" hl="0.22077922077922" he="526.67478580898" ht="29.259710322721" hb="0.021739043428947" hi="25.671953634474" mi="64.5870220669"/>
+      <method name="execute" start="84" end="164" ccn="5" ccn2="5" loc="81" cloc="16" eloc="39" lloc="34" ncloc="65" npath="12" hnt="75" hnd="216" hv="581.61656266226" hd="6.3684210526316" hl="0.15702479338843" he="3703.9791622176" ht="205.7766201232" hb="0.079797833742067" hi="91.32822058333" mi="45.262036277276"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Creator" noc="2" noi="0" nom="8" nof="0" cr="0.15" rcr="0.15">
+    <class name="ClassPageCreator" fqname="Hbaeumer\SoftDoc\Creator\ClassPageCreator" start="18" end="76" ca="2" cbo="8" ce="8" dit="0" noam="0" nocc="0" noom="0" nom="3" loc="59" cloc="15" eloc="27" lloc="13" ncloc="44" cr="0.15" rcr="0.15" impl="0" cis="3" csz="4" npm="3" vars="1" varsi="1" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Creator/ClassPageCreator.php"/>
+      <method name="__construct" start="30" end="37" ccn="1" ccn2="1" loc="8" cloc="0" eloc="6" lloc="4" ncloc="8" npath="1" hnt="12" hnd="22" hv="53.513179423648" hd="5.25" hl="0.19047619047619" he="280.94419197415" ht="15.608010665231" hb="0.014298553920166" hi="10.192986556885" mi="70.788228751615"/>
+      <method name="create" start="48" end="58" ccn="1" ccn2="1" loc="11" cloc="0" eloc="9" lloc="2" ncloc="11" npath="1" hnt="14" hnd="17" hv="57.224479777505" hd="8.25" hl="0.12121212121212" he="472.10195816441" ht="26.22788656469" hb="0.02021013803737" hi="6.9363005790915" mi="66.743074045205"/>
+      <method name="test" start="61" end="74" ccn="3" ccn2="3" loc="14" cloc="0" eloc="12" lloc="7" ncloc="14" npath="3" hnt="15" hnd="36" hv="77.548875021635" hd="7" hl="0.14285714285714" he="542.84212515144" ht="30.157895841747" hb="0.022181680216327" hi="11.078410717376" mi="62.824437825554"/>
+    </class>
+    <class name="DashboardCreator" fqname="Hbaeumer\SoftDoc\Creator\DashboardCreator" start="18" end="95" ca="2" cbo="6" ce="6" dit="0" noam="0" nocc="0" noom="0" nom="5" loc="78" cloc="25" eloc="27" lloc="9" ncloc="53" cr="0.15" rcr="0.15" impl="0" cis="5" csz="9" npm="5" vars="4" varsi="4" varsnp="0" wmc="5" wmci="5" wmcnp="5">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Creator/DashboardCreator.php"/>
+      <method name="__construct" start="45" end="51" ccn="1" ccn2="1" loc="7" cloc="0" eloc="6" lloc="4" ncloc="7" npath="1" hnt="11" hnd="21" hv="48.315491650566" hd="4.0625" hl="0.24615384615385" he="196.28168483043" ht="10.904538046135" hb="0.011258104185249" hi="11.893044098601" mi="71.098938545227"/>
+      <method name="setCheckStyles" start="56" end="59" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="setPmd" start="64" end="67" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="setProject" start="72" end="75" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="create" start="80" end="93" ccn="1" ccn2="1" loc="14" cloc="0" eloc="12" lloc="2" ncloc="14" npath="1" hnt="23" hnd="33" hv="116.02106474524" hd="6.7857142857143" hl="0.14736842105263" he="787.28579648559" ht="43.738099804755" hb="0.028420629268046" hi="17.097841120352" mi="61.868362037266"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Parser" noc="2" noi="0" nom="6" nof="0" cr="0.15" rcr="0.15">
+    <class name="ClassParser" fqname="Hbaeumer\SoftDoc\Parser\ClassParser" start="9" end="218" ca="0" cbo="3" ce="3" dit="0" noam="0" nocc="0" noom="0" nom="6" loc="210" cloc="50" eloc="105" lloc="78" ncloc="160" cr="0.15" rcr="0.15" impl="0" cis="1" csz="6" npm="1" vars="0" varsi="0" varsnp="0" wmc="19" wmci="19" wmcnp="1">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Parser/ClassParser.php"/>
+      <method name="parse" start="11" end="14" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+      <method name="createFile" start="16" end="106" ccn="9" ccn2="9" loc="91" cloc="13" eloc="51" lloc="38" ncloc="78" npath="75" hnt="84" hnd="293" hv="688.35957577147" hd="14.717213114754" hl="0.067947646895015" he="10130.73457621" ht="562.81858756725" hb="0.15606518684491" hi="46.772413391322" mi="41.670178817956"/>
+      <method name="getTraits" start="108" end="118" ccn="2" ccn2="2" loc="11" cloc="0" eloc="9" lloc="6" ncloc="11" npath="2" hnt="18" hnd="49" hv="101.06477719407" hd="5.3333333333333" hl="0.1875" he="539.01214503506" ht="29.945119168614" hb="0.02207722307106" hi="18.949645723889" mi="64.878948049795"/>
+      <method name="getParent" start="121" end="136" ccn="3" ccn2="3" loc="16" cloc="1" eloc="12" lloc="9" ncloc="15" npath="3" hnt="23" hnd="69" hv="140.4960625059" hd="6.2068965517241" hl="0.16111111111111" he="872.04452589868" ht="48.446918105482" hb="0.030425508976034" hi="22.635476737061" mi="61.017297697761"/>
+      <method name="getInterfaces" start="139" end="148" ccn="2" ccn2="2" loc="10" cloc="0" eloc="8" lloc="5" ncloc="10" npath="2" hnt="16" hnd="39" hv="84.566435501796" hd="5.1764705882353" hl="0.19318181818182" he="437.75566612694" ht="24.319759229275" hb="0.019217634503358" hi="16.336697767392" mi="66.536755739093"/>
+      <method name="createFile2" start="150" end="216" ccn="2" ccn2="2" loc="67" cloc="36" eloc="22" lloc="19" ncloc="31" npath="2" hnt="26" hnd="133" hv="183.43734332303" hd="4.7213114754098" hl="0.21180555555556" he="866.06483404972" ht="48.114713002762" hb="0.03028626247101" hi="38.85304841217" mi="54.598463067185"/>
+    </class>
+    <class name="ProjectParser" fqname="Hbaeumer\SoftDoc\Parser\ProjectParser" start="12" end="15" ca="0" cbo="0" ce="0" dit="0" noam="0" nocc="0" noom="0" nom="0" loc="4" cloc="0" eloc="0" lloc="0" ncloc="4" cr="0.15" rcr="0.15" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Parser/ProjectParser.php"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Reader" noc="2" noi="0" nom="2" nof="0" cr="0.15" rcr="0.15">
+    <class name="CheckStyleReader" fqname="Hbaeumer\SoftDoc\Reader\CheckStyleReader" start="12" end="44" ca="2" cbo="0" ce="0" dit="0" noam="0" nocc="0" noom="0" nom="1" loc="33" cloc="4" eloc="14" lloc="9" ncloc="29" cr="0.15" rcr="0.15" impl="0" cis="1" csz="2" npm="1" vars="1" varsi="1" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Reader/CheckStyleReader.php"/>
+      <method name="read" start="21" end="41" ccn="4" ccn2="4" loc="21" cloc="0" eloc="14" lloc="9" ncloc="21" npath="5" hnt="27" hnd="58" hv="158.16548686844" hd="11.454545454545" hl="0.087301587301587" he="1811.7137586749" ht="100.65076437083" hb="0.049537999787058" hi="13.808098059944" mi="59.062183354081"/>
+    </class>
+    <class name="PMDReader" fqname="Hbaeumer\SoftDoc\Reader\PMDReader" start="12" end="40" ca="2" cbo="0" ce="0" dit="0" noam="0" nocc="0" noom="0" nom="1" loc="29" cloc="4" eloc="17" lloc="10" ncloc="25" cr="0.15" rcr="0.15" impl="0" cis="1" csz="2" npm="1" vars="1" varsi="1" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Reader/PMDReader.php"/>
+      <method name="read" start="20" end="39" ccn="4" ccn2="4" loc="20" cloc="0" eloc="17" lloc="10" ncloc="20" npath="5" hnt="31" hnd="72" hv="191.26767504471" hd="11.785714285714" hl="0.084848484848485" he="2254.2261701698" ht="125.23478723166" hb="0.057307360186771" hi="16.228772428036" mi="56.644935446808"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Service" noc="1" noi="0" nom="1" nof="0" cr="0.15" rcr="0.15">
+    <class name="FilenameService" fqname="Hbaeumer\SoftDoc\Service\FilenameService" start="10" end="18" ca="2" cbo="1" ce="1" dit="0" noam="0" nocc="0" noom="0" nom="1" loc="9" cloc="0" eloc="3" lloc="1" ncloc="9" cr="0.15" rcr="0.15" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Service/FilenameService.php"/>
+      <method name="getFilename" start="13" end="16" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="13" hnd="19" hv="55.223057674767" hd="6" hl="0.16666666666667" he="331.3383460486" ht="18.407685891589" hb="0.015960991952897" hi="9.2038429457944" mi="77.259240889028"/>
+    </class>
+  </package>
+  <package name="Hbaeumer\SoftDoc\Template\Extension" noc="5" noi="0" nom="17" nof="0" cr="0.15" rcr="0.2775">
+    <class name="BootstrapTableExtension" fqname="Hbaeumer\SoftDoc\Template\Extension\BootstrapTableExtension" start="14" end="71" ca="1" cbo="2" ce="2" dit="2" noam="3" nocc="0" noom="0" nom="3" loc="58" cloc="8" eloc="31" lloc="18" ncloc="50" cr="0.15" rcr="0.1755" impl="0" cis="3" csz="3" npm="3" vars="0" varsi="0" varsnp="0" wmc="8" wmci="8" wmcnp="8">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/BootstrapTableExtension.php"/>
+      <method name="getFilters" start="16" end="21" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="1" ncloc="6" npath="1" hnt="15" hnd="20" hv="64.82892142331" hd="10.5" hl="0.095238095238095" he="680.70367494476" ht="37.816870830264" hb="0.025793927537823" hi="6.1741829926962" mi="71.932161604628"/>
+      <method name="createTable" start="24" end="53" ccn="6" ccn2="6" loc="30" cloc="0" eloc="24" lloc="17" ncloc="30" npath="16" hnt="37" hnd="94" hv="242.51978751207" hd="7.7093023255814" hl="0.12971342383107" he="1869.6583618663" ht="103.86990899257" hb="0.050588707391793" hi="31.458071984975" mi="52.387072960335"/>
+      <method name="foof" start="64" end="67" ccn="1" ccn2="1" loc="4" cloc="0" eloc="2" lloc="0" ncloc="4" npath="1" hnt="3" hnd="3" hv="4.7548875021635" hd="4.5" hl="0.22222222222222" he="21.396993759736" ht="1.1887218755409" hb="0.0025690974927435" hi="1.0566416671474" mi="88.557494668552"/>
+    </class>
+    <class name="ClassSynopsis" fqname="Hbaeumer\SoftDoc\Template\Extension\ClassSynopsis" start="12" end="110" ca="1" cbo="4" ce="4" dit="2" noam="4" nocc="0" noom="0" nom="4" loc="99" cloc="5" eloc="61" lloc="42" ncloc="94" cr="0.15" rcr="0.1755" impl="0" cis="2" csz="4" npm="2" vars="0" varsi="0" varsnp="0" wmc="15" wmci="15" wmcnp="11">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/ClassSynopsis.php"/>
+      <method name="getFilters" start="14" end="19" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="1" ncloc="6" npath="1" hnt="15" hnd="20" hv="64.82892142331" hd="10.5" hl="0.095238095238095" he="680.70367494476" ht="37.816870830264" hb="0.025793927537823" hi="6.1741829926962" mi="71.932161604628"/>
+      <method name="createClassSynopsis" start="21" end="83" ccn="10" ccn2="10" loc="63" cloc="5" eloc="40" lloc="31" ncloc="58" npath="150" hnt="74" hnd="234" hv="582.40698924917" hd="16.094736842105" hl="0.062132112491825" he="9373.6872269683" ht="520.76040149824" hb="0.14819005212386" hi="36.186176572055" mi="44.345538863117"/>
+      <method name="getParents" start="85" end="95" ccn="2" ccn2="2" loc="11" cloc="0" eloc="8" lloc="5" ncloc="11" npath="2" hnt="15" hnd="26" hv="70.506595772116" hd="11.25" hl="0.088888888888889" he="793.19920243631" ht="44.066622357573" hb="0.02856276573074" hi="6.2672529575215" mi="67.089692666562"/>
+      <method name="getInterfaces" start="97" end="108" ccn="2" ccn2="2" loc="12" cloc="0" eloc="8" lloc="5" ncloc="12" npath="2" hnt="17" hnd="29" hv="82.585676917169" hd="10.45" hl="0.095693779904306" he="863.02032378441" ht="47.945573543579" hb="0.030215243196265" hi="7.9029355901597" mi="66.608829508492"/>
+    </class>
+    <class name="MethodExtension" fqname="Hbaeumer\SoftDoc\Template\Extension\MethodExtension" start="16" end="242" ca="1" cbo="8" ce="8" dit="2" noam="6" nocc="0" noom="0" nom="6" loc="227" cloc="81" eloc="95" lloc="67" ncloc="146" cr="0.15" rcr="0.1755" impl="0" cis="3" csz="6" npm="3" vars="0" varsi="0" varsnp="0" wmc="23" wmci="23" wmcnp="7">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/MethodExtension.php"/>
+      <method name="getFilters" start="18" end="24" ccn="1" ccn2="1" loc="7" cloc="0" eloc="6" lloc="1" ncloc="7" npath="1" hnt="17" hnd="37" hv="88.560707215692" hd="9.375" hl="0.10666666666667" he="830.25663014711" ht="46.125368341506" hb="0.029445593584827" hi="9.4464754363405" mi="69.256326066214"/>
+      <method name="simpleMethodRender" start="27" end="31" ccn="2" ccn2="2" loc="5" cloc="0" eloc="3" lloc="1" ncloc="5" npath="2" hnt="13" hnd="21" hv="57.100126496124" hd="6.5" hl="0.15384615384615" he="371.15082222481" ht="20.6194901236" hb="0.017215211524494" hi="8.7846348455575" mi="77.023092396"/>
+      <method name="methodRender" start="33" end="130" ccn="4" ccn2="4" loc="98" cloc="56" eloc="30" lloc="25" ncloc="42" npath="6" hnt="45" hnd="138" hv="319.88360055502" hd="7.15" hl="0.13986013986014" he="2287.1677439684" ht="127.06487466491" hb="0.057864307094284" hi="44.73896511259" mi="49.700131622236"/>
+      <method name="getLink" start="132" end="136" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="15" hnd="21" hv="65.884761341681" hd="5.6875" hl="0.17582417582418" he="374.71958013081" ht="20.817754451712" hb="0.017325389346845" hi="11.584133862274" mi="73.997025752345"/>
+      <method name="getDescription" start="138" end="174" ccn="5" ccn2="5" loc="37" cloc="8" eloc="20" lloc="14" ncloc="29" npath="8" hnt="28" hnd="72" hv="172.75790004038" hd="17.045454545455" hl="0.058666666666667" he="2944.7369325066" ht="163.59649625036" hb="0.068481996655751" hi="10.135130135703" mi="55.280294132508"/>
+      <method name="getHeadline" start="176" end="241" ccn="10" ccn2="10" loc="66" cloc="17" eloc="32" lloc="24" ncloc="49" npath="192" hnt="58" hnd="169" hv="429.25100730437" hd="19.349206349206" hl="0.051681706316653" he="8305.6663159369" ht="461.42590644094" hb="0.13670835726677" hi="22.184424495632" mi="47.387403960922"/>
+    </class>
+    <class name="PMDTableExtension" fqname="Hbaeumer\SoftDoc\Template\Extension\PMDTableExtension" start="14" end="55" ca="1" cbo="1" ce="1" dit="2" noam="2" nocc="0" noom="0" nom="2" loc="42" cloc="0" eloc="29" lloc="18" ncloc="42" cr="0.15" rcr="0.1755" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/PMDTableExtension.php"/>
+      <method name="getFilters" start="16" end="21" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="1" ncloc="6" npath="1" hnt="15" hnd="20" hv="64.82892142331" hd="10.5" hl="0.095238095238095" he="680.70367494476" ht="37.816870830264" hb="0.025793927537823" hi="6.1741829926962" mi="71.932161604628"/>
+      <method name="createTable" start="24" end="53" ccn="6" ccn2="6" loc="30" cloc="0" eloc="24" lloc="17" ncloc="30" npath="16" hnt="37" hnd="94" hv="242.51978751207" hd="7.7093023255814" hl="0.12971342383107" he="1869.6583618663" ht="103.86990899257" hb="0.050588707391793" hi="31.458071984975" mi="52.387072960335"/>
+    </class>
+    <class name="SidebarMultilevel" fqname="Hbaeumer\SoftDoc\Template\Extension\SidebarMultilevel" start="15" end="35" ca="0" cbo="2" ce="2" dit="2" noam="2" nocc="0" noom="0" nom="2" loc="21" cloc="3" eloc="8" lloc="2" ncloc="18" cr="0.15" rcr="0.1755" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/home/heiner/SoftwareProjects/hbaeumer/software-documentation/src/SoftDoc/Template/Extension/SidebarMultilevel.php"/>
+      <method name="getFilters" start="17" end="22" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="1" ncloc="6" npath="1" hnt="15" hnd="20" hv="64.82892142331" hd="10.5" hl="0.095238095238095" he="680.70367494476" ht="37.816870830264" hb="0.025793927537823" hi="6.1741829926962" mi="71.932161604628"/>
+      <method name="createUl" start="27" end="33" ccn="1" ccn2="1" loc="7" cloc="0" eloc="3" lloc="1" ncloc="7" npath="1" hnt="6" hnd="6" hv="15.509775004327" hd="4" hl="0.25" he="62.039100017308" ht="3.4466166676282" hb="0.0052238304343202" hi="3.8774437510817" mi="81.120955834208"/>
+    </class>
+  </package>
+</metrics>

@@ -1,13 +1,61 @@
 {% extends "base.html.twig" %}
-
+{# @var class \Roave\BetterReflection\Reflection\ReflectionClass #}
 {% block pageheader %}
-    <h1>
-        {{ class.FullyQualifiedStructuralElementName }}
-        <small>it all starts here</small>
-    </h1>
+    <h2>
+        {{ class.shortName }}
+    </h2>
 {% endblock %}
 {% block maincontent %}
-    {# @var class \phpDocumentor\Descriptor\Interfaces\ClassInterface #}
-    {{ class.name }}
+
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Class synopsis</h3>
+
+            <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse">
+                    <i class="fa fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <pre><code class="php">{{ class|class_synopsis }}</code></pre>
+        </div>
+        <!-- /.box-body -->
+    </div>
+
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Metrics</h3>
+
+            <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse">
+                    <i class="fa fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            {{ class|metric_table }}
+        </div>
+        <!-- /.box-body -->
+    </div>
+
+
+    <div class="box">
+        <div class="box-header with-border">
+            <h3 class="box-title">Methods</h3>
+
+            <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse">
+                    <i class="fa fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            {% for method in class.methods  %}
+                {{ method|method_template }}
+            {% endfor %}
+        </div>
+        <!-- /.box-body -->
+    </div>
+
+
+
 
 {% endblock %}

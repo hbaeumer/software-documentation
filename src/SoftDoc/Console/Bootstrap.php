@@ -11,6 +11,7 @@ namespace Hbaeumer\SoftDoc\Console;
 
 use Hbaeumer\SoftDoc\Configuration;
 use Hbaeumer\SoftDoc\Console\Command\RunCommand;
+use Hbaeumer\SoftDoc\Console\Command\RunOldCommand;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
@@ -52,6 +53,7 @@ class Bootstrap
 
         });
         $app->setDispatcher($dispatcher);
+        $app->add($this->container->get(RunOldCommand::class));
         $app->add($this->container->get(RunCommand::class));
 
         return $app;

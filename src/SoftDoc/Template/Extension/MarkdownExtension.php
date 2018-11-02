@@ -20,8 +20,7 @@ class MarkdownExtension extends Twig_Extension
         ];
     }
 
-
-    public function markdown(string $content)
+    public function markdown(string $content): string
     {
 
         $parseDown = new \Parsedown();

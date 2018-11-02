@@ -24,7 +24,6 @@ class BootstrapTableExtension extends Twig_Extension
     public function createTable(array $content, string $caption = null, array $head)
     {
 
-
         $string = '<table class="table">';
         if (is_string($caption)) {
             $string .= '<caption><h4>'. $caption. '</h4></caption>';
@@ -50,6 +49,20 @@ class BootstrapTableExtension extends Twig_Extension
         $string .= '</table>';
 
         return $string;
+
+    }
+
+
+    /**
+     * Get found nodes satisfying the filter callback.
+     *
+     * Nodes are returned in pre-order.
+     *
+     *
+     * @return Node[] Found nodes
+     */
+    public static function foof()
+    {
 
     }
 
